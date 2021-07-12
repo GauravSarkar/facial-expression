@@ -2,7 +2,7 @@
 
 1)FER dataset used which contains images of faces with 7 facial expressions namely happy,sad,angry,disgust,surprise,neutral,fear.
 
-2)CNN used for feature extraction from the images. I created a CNN layer from scratch to train my model. I have thought of replacing the CNN layer with a VGG layer to grt better efficiencies.
+2)CNN used for feature extraction from the images. I created a CNN layer from scratch to train my model. I have thought of replacing the CNN architecture with a VGG layer to get better efficiencies. This can be done by using a VGG as a base layer and using transfer learning we can build a CNN on top of it to derive better results.
 
 3)Extracted features used to train the model and then predicted on the images from validation set.
 
